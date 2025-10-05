@@ -1,3 +1,26 @@
-Inneholder en video av klokken som går i en time:)
-Blå farge er minuttviseren, og rød farge er timevideren, hvis de overlapper blir det en rosa farge. 
-Skalldet er laserkuttet på UIO mens delene er fra arduino kit og bestillt i pakker fra den offisielle Arduino nettsiden.
+#Digital klokke med temperatur
+
+Jeg lagde denne klokken mest fordi jeg rett og slett hadde lyst til å se om jeg fikk det til.  
+Den viser tid med to LED-farger: blå for minutter og rød for timer – når de overlapper blir det rosa.  
+I tillegg måler den temperatur med en sensor, og viser det på skjermen.
+
+Skallet er laser­kuttet på UiO, mens elektronikken kommer fra et Arduino-kit og noen deler bestilt fra den offisielle Arduino-nettsiden.
+
+---
+
+## 🎥 Video
+Videoen ligger som `IMG_4029.mov` i repoet (last ned for å se).  Bildene ligger i mappen 'bilder'
+
+
+---
+
+##Kort om hvordan det fungerer
+- En Neopixel-ring viser tid med to farger.  
+- En temperatursensor fra arduino som måler romtemperaturen og sender inn verdier basert på hvor varmt det er (veldig enkelt).  
+- Koden oppdaterer LED-ene hvert sekund og viser ny tid.  
+- Temperaturen vises på en LCD-skjerm.
+
+---
+
+Jeg lagde den mest for å lære meg litt mer om hvordan Arduino håndterer tid, temperatur og LED-styring.  
+Det var egentlig bare gøy å få noe fysisk til å virke og se at det faktisk holder riktig tid.
