@@ -17,5 +17,3 @@ Student ved UiO (Informatikk: Robotikk/AI). Jeg bygger praktiske ting – alt fr
 
 ## Teknologi
 **Python** (pandas, requests, Streamlit) · **REST/JSON** · **Git/GitHub** · **CI/CD** (GitHub Actions) · **Linux/Bash** · **SQL (grunnl.)** · **Testing** (pytest, logging) · **Docker (grunnl.)** · **Arduino/ESP32**.
-
-> Tips: Hold demo-videoer i `media/` i hvert prosjekt. Store filer → Git LFS eller YouTube-lenke.
