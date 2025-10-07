@@ -12,9 +12,7 @@ Student ved UiO (Informatikk: Robotikk/AI). Jeg bygger praktiske ting – alt fr
 |---|---|---|---|
 | **Arduino Digital Clock** | Digital klokke m/ knapper (debounce), 7-segment/LCD, enkel alarm/stoppeklokke | C/C++ (Arduino) | [repo](https://github.com/MagnusUndhjem/GitHub-Portefolje/tree/main/arduino_digital_clock/media) |
 | **Slot Machine (vinner skolekonk.)** | Arduino-spill m/ pseudo-tilfeldighet (sensor-seed), poeng, lys/lyd | C/C++ (Arduino) | 🎥 [demo](./arduino-slot-machine/media/demo.mp4) · 📦 [repo](https://github.com/BRUKERNAVN/arduino-slot-machine) |
-| **IoT Miljølogger** | ESP32 → MQTT → Python pipeline → Streamlit-dashboard; offline-buffer | ESP32, MQTT, Python, Streamlit | 🔗 [repo](https://github.com/BRUKERNAVN/iot-miljologger) |
-| **HealthTalk News MVP** | Henter nye helsesaker (RSS/skraping), AI-oppsummering, Google Docs-eksport | Python, Streamlit, GitHub Actions | 🔗 [repo](https://github.com/BRUKERNAVN/healthtalk-mvp) |
-
+| **HealthTalk News MVP** | Henter nye helsesaker (RSS/skraping), AI-oppsummering, Google Docs-eksport | Python, Streamlit, GitHub Actions |
 ---
 
 ## Teknologi
