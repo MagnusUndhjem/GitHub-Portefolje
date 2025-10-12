@@ -4,9 +4,13 @@ Spillet er inspirert av det populære gamblingspillet "plinko"
 Masteren håndterte skjermen, og de to andre Arduinoene styrte alle LED-lysene fordi vi hadde så mange lys.
 Siden vi jobbet tiol en deadline så var det enklest å putte alle lysene i en parralellkobling til GND og da kunne styre hver og en av dem enkelt
 Alt dette ble koordinert over I2C, slik at masteren kunne sende kommandoer og få slavene til å oppføre seg som ønsket.
-Skjermen viser en ball som faller nedover som en slags nedtelling før det første LED_lyset lyser, og har en 50/50 sjangse for å gå til hvær av sidene.
-Det er da minst sjangse for å treffe helt ytterst til høyre eller venstre, så det gir best premie.
+
 
 ---
 
 Bilder av maskinen ligger i mappen "media"
+
+---
+
+Skjermen viser en ball som faller nedover som en slags nedtelling før det første LED_lyset lyser, og har en 50/50 sjangse for å gå til hvær av sidene.
+Det er da minst sjangse for å treffe helt ytterst til høyre eller venstre, så det gir best premie.
