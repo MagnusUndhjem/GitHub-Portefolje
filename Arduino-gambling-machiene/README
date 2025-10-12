@@ -1,1 +1,5 @@
+Jobbet i Team med 2 andre på mitt første studie år og lagde denne gambling maskinen som senere vant skolekonkurransen:)
 
+Masteren håndterte skjermen, og de to andre Arduinoene styrte alle LED-lysene fordi vi hadde så mange lys.
+Siden vi jobbet tiol en deadline så var det enklest å putte alle lysene i en parralellkobling til GND og da kunne styre hver og en av dem enkelt
+Alt dette ble koordinert over I2C, slik at masteren kunne sende kommandoer og få slavene til å oppføre seg som ønsket.
